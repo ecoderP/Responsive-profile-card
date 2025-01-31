@@ -83,8 +83,11 @@ section {
 
 /*== Media Query ==*/
 @media screen and (max-width: 758px) {
+    h1 {
+        font-size: 2.5rem;
+    }
     h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     p {
         font-size: 1rem;
@@ -94,9 +97,19 @@ section {
         width: 100%;
         height: auto;
         margin: 0;
+        padding-left: 0;
+        padding-right: 0;
         flex-direction: column;
     }
+
+    section {
+        padding: 5px;
+    }
+
+    .profile-box {
+        width: 97%;
+    }
     .img-box {
-        width: 50%;
+        width: 70%;
     }
 }
